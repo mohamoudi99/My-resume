@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: auto; 
+    overflow: auto; 
+}
+
+.container {
+    display: flex;
+}
+
+.fixed-section {
+    flex: 0 0 400px;
+    background-color: #3a3a42;
+    text-align: center;
+    position: relative;
+    height: auto;
+}
+
+.gray-section {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.gray-section img {
+    width: 140px;
+    height: auto; 
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.gray-text {
+    margin-top: 0;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-align: left;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gray-text::after {
+    content: "";
+    left: 0;
+    right: 0;
+    position: absolute;
+    bottom: -5px; 
+    width: 80%;
+    height: 2px; 
+    background-color: white; 
+}
+
+.content-section {
+    flex: 1;
+}
+
+.ul {
+    text-align: left;
+    color: white;
+    margin-top: -0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left {
+    font-size: 20px;
+    color: white;
+    margin-top: -0.5rem;
+    text-align: left;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.phone {
+    font-size: 12px;
+    color: white;
+    margin-top: -1rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.motivation {
+    text-align: justify;
+    margin-left: 10px;
+    margin-top: -5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.name {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -10px;
+    margin-top: -4px;
+    margin-left: 10px;
+}
+
+.profession {
+    margin-left: 10px;
+    font-size: 20px;
+    margin-bottom: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(98, 98, 98);
+}
+
+.education {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    font-size: 20px;
+    margin-top: -8px;
+}
+
+.custom-line {
+    border: none;
+    height: 2px;
+    background-color: black;
+    margin: -18px 20px;
+}
+
+.dates {
+    color: gray;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: large;
+    font-size: 17px;
+}
+
+.schools {
+    margin-top: -10px;
+    margin-left: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.institute {
+    margin-top: -35px;
+    margin-left: 30px;
+    font-size: large;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.state {
+    margin-left: 30px;
+    margin-top: -15px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list {
+    font-weight: 600;
+    margin-top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.text-projects {
+    margin-left: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+.certificates {
+    margin-top: 0px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.dates1 {
+    margin-top: -10px;
+    color: gray;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: large;
+    font-size: 17px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .fixed-section {
+        flex: 1; 
+    }
+}
+
+
+
+
+
+ 
+    
